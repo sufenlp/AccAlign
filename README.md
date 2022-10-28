@@ -1,6 +1,6 @@
 # Multilingual Sentence Transformer as A Multilingual Word Aligner
 
-----
+
 
 
 
