@@ -31,14 +31,14 @@ But this is not what happens .
 ## Directly extract alignments
 
 ```shell
-bash train.sh
+bash run_align.sh
 ```
 
 
 ## Fine-tuning on training data
 
 ```shell
-bash run_align.sh
+bash train.sh
 ```
 
 ## Calculate AER
