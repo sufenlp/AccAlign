@@ -62,7 +62,7 @@ Links to the test set used in the paper are here:
 | En-Ja |   Gold Alignment | http://www.phontron.com/kftt |
 | En-Sv |   Gold Alignment | https://www.ida.liu.se/divisions/hcs/nlplab/resources/ges/ |
 
-Links to the training set and validation set used in the paper are here [here]()
+Links to the training set and validation set used in the paper are here [here](https://drive.google.com/file/d/19X0mhTx6-EhgILm7_mtVWrT2qal-o-uV/view?usp=share_link)
 
 ## LaBSE
 
