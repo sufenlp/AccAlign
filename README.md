@@ -70,6 +70,10 @@ You can access to LaBSE model [here](https://huggingface.co/sentence-transformer
 
 ## Adapter Checkpoints 
 
+The multilingual adapter checkpoint is [here](https://drive.google.com/open?id=1eB8aWd4iM6DSQWJZOA5so4rB4MCQQyQf&usp=drive_copy) . 
+
+## Citation
+
 ```
 @inproceedings{wang-etal-2022-multilingual,
     title = "Multilingual Sentence Transformer as A Multilingual Word Aligner",
@@ -89,8 +93,3 @@ You can access to LaBSE model [here](https://huggingface.co/sentence-transformer
 }
 
 ```
-
-
-## Citation
-
-[Multilingual Sentence Transformer as A Multilingual Word Aligner](https://aclanthology.org/2022.findings-emnlp.215) (Wang et al., Findings 2022)
