@@ -70,7 +70,7 @@ You can access to LaBSE model [here](https://huggingface.co/sentence-transformer
 
 ## Adapter Checkpoints 
 
-'''
+```
 @inproceedings{wang-etal-2022-multilingual,
     title = "Multilingual Sentence Transformer as A Multilingual Word Aligner",
     author = "Wang, Weikang  and
@@ -88,7 +88,7 @@ You can access to LaBSE model [here](https://huggingface.co/sentence-transformer
     abstract = "Multilingual pretrained language models (mPLMs) have shown their effectiveness in multilingual word alignment induction. However, these methods usually start from mBERT or XLM-R. In this paper, we investigate whether multilingual sentence Transformer LaBSE is a strong multilingual word aligner. This idea is non-trivial as LaBSE is trained to learn language-agnostic sentence-level embeddings, while the alignment extraction task requires the more fine-grained word-level embeddings to be language-agnostic. We demonstrate that the vanilla LaBSE outperforms other mPLMs currently used in the alignment task, and then propose to finetune LaBSE on parallel corpus for further improvement. Experiment results on seven language pairs show that our best aligner outperforms previous state-of-the-art models of all varieties. In addition, our aligner supports different language pairs in a single model, and even achieves new state-of-the-art on zero-shot language pairs that does not appear in the finetuning process.",
 }
 
-'''
+```
 
 
 ## Citation
