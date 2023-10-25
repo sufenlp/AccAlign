@@ -121,7 +121,7 @@ def word_align(args, tokenizer, model, folder_path, src_path, tgt_path):
         with torch.no_grad():
             ids_src, ids_tgt, bpe2word_map_src, bpe2word_map_tgt, sents_src, sents_tgt = batch
 
-            ids_src, ids_tgt = ids_src, ids_tgt
+            ids_src, ids_tgt = ids_src.to(args.device), ids_tgt.to(args.device)
             word_aligns_list_all_layer_dic_one_batch = model_sentence.get_aligned_word(args, ids_src, ids_tgt, bpe2word_map_src, bpe2word_map_tgt, tokenizer.pad_token_id, tokenizer.cls_token_id, tokenizer.sep_token_id, output_prob = False)
 
             for layer_id in word_aligns_list_all_layer_dic_one_batch:

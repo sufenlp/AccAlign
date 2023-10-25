@@ -46,8 +46,7 @@ class SentenceAligner_word(object):
         output_src,output_tgt = self.embed_loader(
             inputs_src=inputs_src, inputs_tgt=inputs_tgt, attention_mask_src=(inputs_src != PAD_ID),
             attention_mask_tgt=(inputs_tgt != PAD_ID), guide=None, align_layer=args.align_layer,
-            extraction=args.extraction, softmax_threshold=args.softmax_threshold,
-            train_so=args.train_so, train_co=args.train_co, do_infer=True,
+            extraction=args.extraction, softmax_threshold=args.softmax_threshold, do_infer=True
         )
 
         align_matrix_all_layers = {}
